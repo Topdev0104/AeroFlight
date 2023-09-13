@@ -3,7 +3,8 @@ import elevate from "../../../assets/images/elevate.png";
 export const ElevateContainer = styled.div`
   background-image: url(${elevate});
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
+
   h1 {
     color: #2626e5;
     font-family: Druk Wide;

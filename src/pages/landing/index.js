@@ -5,6 +5,8 @@ import { LandingContainer } from "./index.style";
 
 import Elevate from "./elevate";
 import Second from "./second";
+import Service from "./service";
+import Team from "./team";
 
 const Landing = () => {
   return (
@@ -12,6 +14,8 @@ const Landing = () => {
     <LandingContainer>
       <Elevate />
       <Second />
+      <Service />
+      <Team />
     </LandingContainer>
     // </LandingLayout>
   );

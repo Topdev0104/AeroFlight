@@ -2,8 +2,8 @@ import styled from "styled-components";
 import girl from "../../../assets/images/girl.png";
 export const SecondContainer = styled.div`
   background-image: url(${girl});
-  background-size: 100% 100%;
   background-position: center;
+  background-size: cover;
   h1 {
     padding-top: 1163px;
     padding-bottom: 50px;
