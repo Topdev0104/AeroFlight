@@ -1,6 +1,8 @@
 import React from "react";
-import { ContactContainer } from "./contact.style";
-
+import { ContactContainer, ContactSocialWrapper } from "./contact.style";
+import call from "../../../assets/images/Call.png";
+import email from "../../../assets/images/Email.png";
+import location from "../../../assets/images/Location.png";
 export default function Contact() {
   return (
     <ContactContainer>
@@ -27,6 +29,38 @@ export default function Contact() {
         Aeroflight Publications.” -Roger D. NowlingG C Aviation, Inc.— Quote
         Source
       </h3>
+      <ContactSocialWrapper>
+        <div>
+          <span>
+            <img src={call} alt="" />
+          </span>
+          <div>
+            <p>Give Us A Call</p>
+            <a href="#">(806 733-2483)</a>
+          </div>
+        </div>
+        <div>
+          <span>
+            <img src={email} alt="" />
+          </span>
+          <div>
+            <p>Send Us A Message</p>
+            <a href="#">isvy.acosta@aftd.com</a>
+          </div>
+        </div>
+        <div>
+          <span>
+            <img src={location} alt="" />
+          </span>
+          <div>
+            <p>Location</p>
+            <a href="#">
+              433 Main Street <br />
+              Gruver, TX 79040
+            </a>
+          </div>
+        </div>
+      </ContactSocialWrapper>
     </ContactContainer>
   );
 }
