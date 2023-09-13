@@ -62,8 +62,7 @@ export const ElevateHeader = styled.div`
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1440px;
-
-  padding: 40px 0 10px 0;
+  padding: 40px 30px 10px 30px;
   img {
     width: 521px;
     height: 80px;

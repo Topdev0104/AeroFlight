@@ -5,7 +5,7 @@ export const SecondContainer = styled.div`
   background-position: center;
   background-size: cover;
   h1 {
-    padding-top: 1163px;
+    padding-top: 1563px;
     padding-bottom: 50px;
     max-width: 1074px;
     margin: auto;

@@ -2,7 +2,6 @@ import styled from "styled-components";
 import airplane from "../../../assets/images/airplane.png";
 export const ServiceContainer = styled.div`
   background-image: url(${airplane});
-  background-size: 100% 100%;
   background-position: center;
   background-size: cover;
   h1 {

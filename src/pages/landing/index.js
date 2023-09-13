@@ -7,6 +7,7 @@ import Elevate from "./elevate";
 import Second from "./second";
 import Service from "./service";
 import Team from "./team";
+import Contact from "./contact";
 
 const Landing = () => {
   return (
@@ -16,6 +17,7 @@ const Landing = () => {
       <Second />
       <Service />
       <Team />
+      <Contact />
     </LandingContainer>
     // </LandingLayout>
   );
