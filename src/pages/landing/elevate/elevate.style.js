@@ -1,10 +1,6 @@
 import styled from "styled-components";
-import elevate from "../../../assets/images/elevate.png";
 export const ElevateContainer = styled.div`
-  background-image: url(${elevate});
-  background-position: center;
-  background-size: cover;
-
+  background-color: #020202;
   h1 {
     color: #2626e5;
     font-family: Druk Wide;
@@ -53,9 +49,14 @@ export const ElevateContainer = styled.div`
     max-width: 1117px;
   }
 `;
+export const CloudImg = styled.img`
+  position: absolute;
+  right: 0;
+`;
 export const ElevateHeaderContainer = styled.div`
+  background: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: luminosity;
   backdrop-filter: blur(2px);
-  background: rgba(0, 0, 0, 0.2);
 `;
 export const ElevateHeader = styled.div`
   display: flex;
@@ -64,56 +65,21 @@ export const ElevateHeader = styled.div`
   max-width: 1440px;
   padding: 40px 30px 10px 30px;
   img {
-    width: 521px;
-    height: 80px;
+    width: 300px;
+    height: 55px;
   }
   div {
-    max-width: 700px;
+    max-width: 900px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     span {
-      color: #2626e5;
-      font-size: 24px;
-      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: bold;
       line-height: normal;
-    }
-  }
-`;
-export const PinButton = styled.div`
-  width: 255px;
-  height: 62px;
-  border-radius: 3px 0px 0px 3px;
-  background-color: #5048c2;
-  color: #fff;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 54px;
-  margin-left: 220px;
-`;
-export const CheckView = styled.div`
-  margin: 50px auto 0 auto;
-  display: grid;
-  grid-template-columns: auto auto;
-  max-width: 1117px;
-  padding-bottom: 70px;
-  div {
-    display: flex;
-    align-items: center;
-    color: #000;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 128.4%; /* 28.248px */
-    letter-spacing: -0.55px;
-    padding: 5px;
-    img {
-      margin-right: 16px;
     }
   }
 `;
