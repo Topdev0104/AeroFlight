@@ -52,6 +52,8 @@ export const ElevateContainer = styled.div`
 export const CloudImg = styled.img`
   position: absolute;
   right: 0;
+  width: 656px;
+  height: 369px;
 `;
 export const ElevateHeaderContainer = styled.div`
   background: rgba(0, 0, 0, 0.5);
@@ -61,12 +63,12 @@ export const ElevateHeaderContainer = styled.div`
 export const ElevateHeader = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
   max-width: 1440px;
-  padding: 40px 30px 10px 30px;
   img {
-    width: 300px;
-    height: 55px;
+    width: 150px;
+    height: 120px;
   }
   div {
     max-width: 900px;
